@@ -16,8 +16,8 @@ header img{
     width: 60px;
 }
 header h1{
-    size: 2.5em;
-    align-items;: center
+    font-size: 2.5em;
+    align-items: center;
 }
 main{
     flex: 3;
@@ -30,10 +30,19 @@ aside{
 footer{
     display: flex;
 }
+footer h3{
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+.lista{
+    list-style: none;
+    padding: 0;
+}
 .footer-section{
     flex: 1;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     min-height: 80px;
     max-height: 80px;
 }
