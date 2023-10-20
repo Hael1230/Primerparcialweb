@@ -22,6 +22,22 @@ header h1{
 main{
     flex: 3;
 }
+main img{
+    height: 50px;
+    width: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-between; 
+}
+.columna{
+    flex: 15;
+}
+.column {
+    flex: 1;
+    padding: 5px;
+    padding-bottom: 10px;
+}
 aside{
     flex: 1;
     min-width: 200px;
