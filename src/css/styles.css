@@ -1,0 +1,22 @@
+head{
+    max-width: 1200px;
+    min-height: 120px;
+}
+main{
+    flex: 3;
+}
+aside{
+    flex: 1;
+    min-width: 200px;
+    min-height: 400px;
+}
+footer{
+    display: flex;
+}
+.footer-section{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    min-height: 80px;
+    max-height: 80px;
+}
